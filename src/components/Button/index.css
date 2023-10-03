@@ -1,0 +1,50 @@
+.b-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+}
+
+.dark-btn {
+    background-color: #262626;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dark-btn:hover {
+    background-color: #363636;
+}
+
+.icon-btn {
+    background-color: #262626;
+    max-width: 32px;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+    padding: 8px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.icon-btn:hover {
+    background-color: #363636;
+}
+
+.blue-btn {
+    background-color: #0095f6;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.blue-btn:hover {
+    background-color: #0077b6;
+}

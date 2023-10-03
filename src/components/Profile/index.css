@@ -1,0 +1,94 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px 0;
+    color: #ffff;
+    margin: 0 auto 30px;
+    max-width: 100%;
+}
+
+.profile-header {
+    display: flex;
+    max-width: 935px;
+    width: 100%;
+}
+
+.profile-username {
+    font-size: 20px;
+    max-width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.profile-bio {
+    font-size: 14px;
+    line-height: 20px;
+    color: #F5F5F5;
+    max-width: 380px;
+}
+
+.profile-avatar-box {
+    margin-right: 30px;
+    flex-basis: 190px;
+}
+
+.profile-top-area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.profile-grid-area {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 20px;
+    margin-bottom: 16px;
+}
+
+.profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 1199px) {
+    .profile-avatar-box {
+        flex-basis: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile-top-area {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .profile-avatar {
+        width: 75px;
+        height: 75px;
+    }
+    .profile-avatar-box {
+        margin-right: 16px;
+    }
+    .profile-top-area {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .profile-top-area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
